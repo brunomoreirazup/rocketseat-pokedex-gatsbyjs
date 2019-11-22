@@ -12,10 +12,9 @@ const PokedexList = (props) => {
         {
           map(pokemons, pokemon => {
             const { id, name, img, type } = pokemon
-            const to = `/pokemon/` + id
 
             return (
-              <StyledLink to={to}>
+              <StyledLink to="">
                 <PokemonItem
                   id={id}
                   name={name}
