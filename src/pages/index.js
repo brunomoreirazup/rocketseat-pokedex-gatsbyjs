@@ -97,4 +97,17 @@ class Home extends Component {
   }
 }
 
+export const query = graphql`
+  query {
+    pokemonsJson : dataJson(id: { eq: "pokemon"}){
+      pokemons {
+        id
+        name
+        img
+        type
+      }
+    }
+  }
+`
+
 export default Home
