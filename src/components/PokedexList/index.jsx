@@ -14,7 +14,7 @@ const PokedexList = (props) => {
             const { id, name, img, type } = pokemon
 
             return (
-              <StyledLink to="">
+              <StyledLink>
                 <PokemonItem
                   id={id}
                   name={name}
