@@ -23,7 +23,7 @@ export const PokemonList = styled.div`
   }
 `
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled.div`
   text-decoration: none;
   border-bottom: 1px solid black;
 
