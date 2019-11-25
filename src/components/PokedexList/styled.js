@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'gatsby'
 
 export const PokemonContainer = styled.div`
   display: flex;
@@ -22,7 +23,7 @@ export const PokemonList = styled.div`
   }
 `
 
-export const StyledLink = styled.div`
+export const StyledLink = styled(Link)`
   text-decoration: none;
   border-bottom: 1px solid black;
 
