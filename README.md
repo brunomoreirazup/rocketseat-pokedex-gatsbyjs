@@ -33,6 +33,17 @@ JSON com os dados: https://github.com/brunomoreirazup/kanto-pokedex-json
   },
 ```
 
+### Gatsby Transformer JSON
+  ```
+  yarn add gatsby-transformer-json
+  ```
+
+#### Para configurá-lo, inserir no arquivo gatsby-config.js:
+  ```
+  gatsby-plugin-styled-components,
+  ```
+
+
 ### Gatsby Plugin React SVG
   ```
   yarn add gatsby-plugin-react-svg 
